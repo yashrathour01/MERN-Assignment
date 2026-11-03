@@ -1,0 +1,67 @@
+
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header Styling */
+header {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Navigation Styling */
+nav {
+    background-color: #222;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 17px;
+}
+
+/* Main Section Styling */
+main {
+    background-color: white;
+    margin: 30px auto;
+    padding: 25px;
+    width: 70%;
+    border-radius: 10px;
+}
+
+/* Heading Styling */
+h2 {
+    color: #bedf59;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* Button Styling */
+button {
+    background-color: #8aa7e6;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
