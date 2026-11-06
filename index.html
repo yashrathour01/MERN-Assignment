@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model - Assignment 6.1</title>
+
+    <style>
+        /* Apply border-box to all elements */
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f4f8;
+            margin: 0;
+            padding: 30px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #222;
+        }
+
+        .container {
+            width: 400px;
+            margin: 30px auto;
+            background-color: #d6eaff;
+            padding: 20px;
+            border: 5px solid #2874a6;
+        }
+
+        .box {
+            width: 100%;
+            background-color: #f9d976;
+            padding: 30px;
+            border: 8px solid #e67e22;
+            margin: 20px 0;
+        }
+
+        .content {
+            background-color: #a9dfbf;
+            padding: 25px;
+            border: 2px solid #239b56;
+            color: #145a32;
+            font-weight: bold;
+        }
+
+        .labels {
+            max-width: 500px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            text-align: left;
+        }
+
+        .labels p {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .margin-label { color: #2874a6; }
+        .border-label { color: #e67e22; }
+        .padding-label { color: #b7950b; }
+        .content-label { color: #239b56; }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>CSS Box Model</h1>
+    <p>Assignment 6.1 - Understanding Box Sizing</p>
+
+    <div class="container">
+
+        <div class="box">
+
+            <div class="content">
+                CONTENT AREA
+                <br><br>
+                Hello! I am the content.
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="labels">
+        <h2>Box Model Labels</h2>
+
+        <p class="margin-label">
+            <strong>Margin:</strong> Space outside the border.
+        </p>
+
+        <p class="border-label">
+            <strong>Border:</strong> The line surrounding the padding and content.
+        </p>
+
+        <p class="padding-label">
+            <strong>Padding:</strong> Space between content and border.
+        </p>
+
+        <p class="content-label">
+            <strong>Content:</strong> Actual text or element inside the box.
+        </p>
+    </div>
+
+</body>
+</html>
