@@ -1,12 +1,41 @@
-/* Bio Box */
-.bio {
-    height: 100px;
-    overflow: auto;
-    padding: 10px;
-    margin-top: 15px;
-    border: 1px solid #999;
-    border-radius: 8px;
-    text-align: left;
-    line-height: 1.5;
-    font-size: 14px;
+/* Sticky Top Bar */
+.topbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #2563eb;
+    color: white;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.topbar nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+/* Main Content */
+main {
+    padding: 30px;
+    min-height: 1200px;
+}
+
+/* Fixed Plus Button */
+.add-btn {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 55px;
+    height: 55px;
+    border: none;
+    border-radius: 50%;
+    background-color: #16a34a;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 2000;
 }
