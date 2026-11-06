@@ -1,155 +1,34 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
-    <title>CSS Box Model - Assignment 6.1</title>
-
-    <style>
-        /* Apply border-box to all elements */
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f4f8;
-            margin: 0;
-            padding: 30px;
-            text-align: center;
-        }
-
-        h1 {
-            color: #222;
-        }
-
-        .container {
-            width: 400px;
-            margin: 30px auto;
-            background-color: #d6eaff;
-            padding: 20px;
-            border: 5px solid #2874a6;
-        }
-
-        .box {
-            width: 100%;
-            background-color: #f9d976;
-            padding: 30px;
-            border: 8px solid #e67e22;
-            margin: 20px 0;
-        }
-
-        .content {
-            background-color: #a9dfbf;
-            padding: 25px;
-            border: 2px solid #239b56;
-            color: #145a32;
-            font-weight: bold;
-        }
-
-        .labels {
-            max-width: 500px;
-            margin: 30px auto;
-            padding: 20px;
-            background-color: white;
-            border-radius: 10px;
-            text-align: left;
-        }
-
-        .labels p {
-            padding: 8px;
-            border-bottom: 1px solid #ddd;
-        }
-
-        .margin-label { color: #2874a6; }
-        .border-label { color: #e67e22; }
-        .padding-label { color: #b7950b; }
-        .content-label { color: #239b56; }
-
-    </style>
-</head>
-
-<body>
-
-    <h1>CSS Box Model</h1>
-    <p>Assignment 6.1 - Understanding Box Sizing</p>
-
-    <div class="container">
-
-        <div class="box">
-
-            <div class="content">
-                CONTENT AREA
-                <br><br>
-                Hello! I am the content.
-            </div>
-
-        </div>
-
-    </div>
-
-    <div class="labels">
-        <h2>Box Model Labels</h2>
-
-        <p class="margin-label">
-            <strong>Margin:</strong> Space outside the border.
-        </p>
-
-        <p class="border-label">
-            <strong>Border:</strong> The line surrounding the padding and content.
-        </p>
-
-        <p class="padding-label">
-            <strong>Padding:</strong> Space between content and border.
-        </p>
-
-        <p class="content-label">
-            <strong>Content:</strong> Actual text or element inside the box.
-        </p>
-    </div>
-
-=======
-    <title>CSS Variables Assignment</title>
-
+    <title>Profile Cards</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Welcome to My Website</h1>
-        <p>Learning CSS Variables</p>
-    </header>
+    <h1>My Profile Cards</h1>
 
-    <main>
-        <section class="card">
-            <h2>About CSS Variables</h2>
-            <p>
-                CSS variables help us reuse colours,
-                spacing and other styling values.
-            </p>
-            <button>Learn More</button>
-        </section>
+    <div class="container">
 
-        <section class="card">
-            <h2>My Learning Journey</h2>
-            <p>
-                I am learning HTML, CSS and JavaScript
-                as part of my web development journey.
-            </p>
-            <button>Explore</button>
-        </section>
-    </main>
+        <!-- Blue Card -->
+        <div class="card blue">
+            <img src="https://via.placeholder.com/100" alt="Profile Avatar">
+            <h2>Yash Rathour</h2>
+            <p>B.Tech CSE Student</p>
+            <p>Learning HTML, CSS, Java and Python.</p>
+        </div>
 
-    <footer>
-        <p>Created by Yash | 2026</p>
-    </footer>
-<P>  I choose colors beacuse of the following reasons </P>
+        <!-- Green Card -->
+        <div class="card green">
+            <img src="https://via.placeholder.com/100" alt="Profile Avatar">
+            <h2>Yash Rathour</h2>
+            <p>Web Developer</p>
+            <p>Interested in Web Development and Programming.</p>
+        </div>
 
-<P>  1. I chose blue as the primary colour because it gives my website a professional and attractive appearance.</P>
-<p>  2. I used white for the cards because it makes the content clean and easy to read.</p>
-<p>  3. I selected dark grey for the footer and headings because it provides good contrast and improves readability.</P>
->>>>>>> 0f8f7899d1b3e025442444c782380f4767b50f9e
+    </div>
+
 </body>
 </html>
